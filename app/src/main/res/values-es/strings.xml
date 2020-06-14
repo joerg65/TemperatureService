@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Temperature Service</string>
+    <string name="notification_content">Procesamiento en primer plano</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="button_settings">Ajustes</string>
+    <string name="button_licenses">Licencias</string>
+
+    <!-- Preference Titles -->
+    <string name="limit_header">Límites</string>
+    <string name="calculation_header">Cálculos</string>
+    <string name="sys_header">Sysfs Rutas</string>
+
+    <!-- Messages Preferences -->
+    <string name="warn_limit_title">Límite de temperatura para aviso de advertencia</string>
+    <string name="subtrahend_title">Sustraendo</string>
+    <string name="factor_title">Factor</string>
+
+    <!-- Sysfs Path Preferences -->
+    <string name="enable_pwm_title">Enable</string>
+    <string name="export_title">Export</string>
+    <string name="set_period_title">Period</string>
+    <string name="set_duty_cycle_title">Duty Cycle</string>
+    <string name="frequency_title">Frequency</string>
+</resources>

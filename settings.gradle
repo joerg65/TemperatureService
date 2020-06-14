@@ -1,0 +1,2 @@
+include ':app', ':RootTools-debug', ':RootShell'
+rootProject.name = "Temperature Service"

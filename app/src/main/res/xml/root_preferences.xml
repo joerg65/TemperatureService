@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/limit_header">
+
+        <EditTextPreference
+            app:key="warn_limit"
+            app:defaultValue="75"
+            app:title="@string/warn_limit_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/calculation_header">
+
+        <EditTextPreference
+            app:key="subtrahend"
+            app:defaultValue="25"
+            app:title="@string/subtrahend_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="factor"
+            app:defaultValue="1.5"
+            app:title="@string/factor_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sys_header">
+
+        <EditTextPreference
+            app:key="export_pwm"
+            app:defaultValue="/sys/class/pwm/pwmchip0/export"
+            app:title="@string/export_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="enable_pwm"
+            app:defaultValue="/sys/class/pwm/pwmchip0/pwm1/enable"
+            app:title="@string/enable_pwm_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="set_period"
+            app:defaultValue="/sys/class/pwm/pwmchip0/pwm1/period"
+            app:title="@string/set_period_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="set_duty_cycle"
+            app:defaultValue="/sys/class/pwm/pwmchip0/pwm1/duty_cycle"
+            app:title="@string/set_duty_cycle_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="set_frequency"
+            app:defaultValue="1000"
+            app:title="@string/frequency_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

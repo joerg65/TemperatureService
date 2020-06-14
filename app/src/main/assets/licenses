@@ -1,0 +1,16 @@
+Temperature Service is written by Jörg wolff, joerg.wolff@gmx.de.
+
+Temperature Service is distributed under the [*GPLv3* license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+Third-party-libraries:
+
+- mdi-fan icon:
+ * * https://raw.githubusercontent.com/Templarian/MaterialDesign/master/LICENSE
+ Copyright (c) 2014, Austin Andrews (http://materialdesignicons.com/),
+ with Reserved Font Name Material Design Icons.
+ Copyright (c) 2014, Google (http://www.google.com/design/)
+ uses the license at https://github.com/google/material-design-icons/blob/master/LICENSE
+
+- RootShell (https://github.com/Stericson/RootShell):
+ * * http://www.apache.org/licenses/LICENSE-2.0
+ * * http://www.gnu.org/licenses/gpl-2.0.txt
